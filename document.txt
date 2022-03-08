@@ -1,0 +1,2 @@
+you have to install AXIOS or link it. (before all js file)
+axios get as array you have to call prebuild key data

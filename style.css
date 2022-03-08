@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+
+/* header design */
+header {
+    height: 90px;
+    padding: 26px 0px;
+}
+
+header .header-logo img {
+    height: 90px !important;
+    margin-top: -24px;
+}
+header form {
+    height: 38px;
+}
+
+header form input.form-control {
+    background: black;
+    color: red !important;
+    border: 1px solid #66677C;
+    border-right: none !important;
+}
+header form input.form-control:focus{
+    background: black !important;
+    outline: none !important;
+}
+header form .input-group-prepend span#basic-addon1 {
+    display: block;
+    border-radius: 0px 3px 3px 0px;
+    background: black;
+    border: 1px solid #66677c;
+    border-left: none !important;
+}
+
+header .profileSection {
+    display: flex;
+    justify-content: end;
+}
+header .profileSection .admin-details {
+    display: flex;
+}
+header .profileSection .admin-details .adminImg img {
+    height: 50px !important;
+    width: 50px;
+    border-radius: 50% !important;
+}
+header .profileSection .dark-mode {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+}
+header .profileSection .alertBox {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+}
+header .profileSection .dark-mode i {
+    font-size: 21px;
+}
+header .profileSection .alertBox i {
+    font-size: 21px;
+    position: relative;
+}
+header .profileSection .alertBox i::after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #0278fc;
+    border-radius: 50%;
+    top: 0;
+    right: -7;
+}
+header .profileSection .admin-details {
+    display: flex;
+    align-items: center;
+    padding-left: 34px !important;
+    cursor: pointer;
+}
+header .profileSection .admin-details .adminImgnm {
+    padding: 0px 12px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Main body design */
+section.main-body {
+    background: #1E1D2B;
+    min-height: 100vh;
+}
+section.main-body .threeItem {
+    display: flex;
+}
+section.main-body .threeItem .mainBody {
+    width: 100%;
+}
+section.main-body .threeItem .dashBord {
+    max-width: 20% !important;
+    border-right: 1px solid #5f5e5e;
+    height: 100vh;
+}
+section.main-body .threeItem .dashBord .allDeshbordItems {
+}
+section.main-body .threeItem .dashBord .allDeshbordItems ul {
+    padding-left: 0px !important;
+}
+section.main-body .threeItem .dashBord .allDeshbordItems li {
+    list-style: none;
+    display: flex;
+    margin: 20px 0px;
+    width: 100% !important;
+    padding-right: 27px;
+    cursor: pointer;
+    padding: 9px 16px;
+    border-radius: 36px 0px 0px 0px;
+}
+section.main-body .threeItem .dashBord .allDeshbordItems li.active {
+    border-right: 3px solid green;
+    background: #0c0b0b;
+}
+section.main-body .threeItem .dashBord .allDeshbordItems li .dashIcon {
+    font-size: 21px;
+    padding: 0px 9px;
+}
+section.main-body .threeItem .mainBody .mainbodyHead {
+    display: flex;
+    justify-content: space-between;
+    background: #212529;
+    padding: 20px 20px;
+    border-bottom: 1px solid #626262;
+}
+section.main-body .threeItem .DetailView {
+    max-width: 20% !important;
+}
+section.main-body .threeItem .DetailView .detailShow{}
+section.main-body .threeItem .DetailView .detailShow .defoultDetails{
+
+}
+section.main-body .threeItem .DetailView .detailShow .allSingleDetails {
+    min-width: 252px;
+    padding: 30px 0px;
+    position: relative;
+    background: #252736;
+    height: 100vh;
+}
+section.main-body .threeItem .DetailView .detailShow .defoultDetails img {
+    width: 122px;
+    height: 122px !important;
+    border-radius: 50%;
+    object-fit: cover;
+}
+section.main-body .threeItem .DetailView .detailShow .allSingleDetails::before {
+    content: "\f363";
+    color: #66677C;
+    font: var(--fa-font-solid);
+    position: absolute;
+    right: 22px;
+    top: 19px;
+    cursor: pointer;
+}
+
+/* table design */
+table.table img {
+    height: 50px !important;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.showSearchRes {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: #858585;
+}
+.singleDevs {
+    min-height: 578px !important;
+}
+span.allPagenAt {
+    display: flex;
+}
+.showSearchRes table.table.table-striped {
+    margin-bottom: 0px !important;
+}
+/* defoult textColor and bg */
+.txtColorDark{
+    color: #66677c !important;
+}
+.txtColorWhite{
+    color: #fff !important;
+}

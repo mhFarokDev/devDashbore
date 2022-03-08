@@ -1,0 +1,1 @@
+var-where.insertAdjacentHTML("beforeend", var_whichCode)  (post strint as HTML code)
